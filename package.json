@@ -1,0 +1,34 @@
+{
+  "name": "groupchat",
+  "version": "0.0.1",
+  "description": "Group Chat usage sample for ChatSDK",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start-dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cemalyilmaz/groupchat.git"
+  },
+  "keywords": [
+    "chatsdk",
+    "node.js",
+    "firebase"
+  ],
+  "author": "Cemal YILMAZ",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/cemalyilmaz/groupchat/issues"
+  },
+  "homepage": "https://github.com/cemalyilmaz/groupchat#readme",
+  "dependencies": {
+    "firebase-admin": "^6.4.0",
+    "passport": "^0.4.0",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.0",
+    "bcrypt-nodejs": "^0.0.3",
+    "models": "file:./locale_modules/models",
+    "groupchat": "file:./locale_modules/groupchat"
+  }
+}

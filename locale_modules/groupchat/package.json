@@ -1,0 +1,11 @@
+{
+  "name": "groupchat",
+  "version": "0.0.1",
+  "description": "groupchat",
+  "main": "index.js",
+  "author": "Cemal YILMAZ",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "lodash": "4.17.11"
+  }
+}

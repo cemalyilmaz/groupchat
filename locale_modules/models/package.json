@@ -1,0 +1,10 @@
+{
+  "name": "models",
+  "version": "1.0.0",
+  "description": "Models",
+  "main": "index.js",
+  "author": "Cemal YILMAZ",
+  "license": "GPL-3.0",
+  "dependencies": {
+  }
+}
